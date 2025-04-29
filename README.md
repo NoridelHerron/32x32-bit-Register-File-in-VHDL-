@@ -1,0 +1,2 @@
+**32x32-bit Register File in VHDL**
+Designed and implemented a 32-register file (32-bit width each) in VHDL for a custom CPU. The module supports dual-read and single-write ports with synchronous write and asynchronous read operations. Register x0 is hardwired to zero, rejecting all write attempts per RISC-V convention. A synchronous reset clears all registers to zero. Verified functionality using a randomized testbench that dynamically generated write/read sequences, including edge cases like x0 write protection and reset behavior.
