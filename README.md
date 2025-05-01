@@ -17,7 +17,6 @@ Designed and implemented a 32-register file (32-bit width each) in VHDL for a cu
 │   ├── tb_Register/
 ├── .gitignore/
 ├── README.md/
----
 
 ## Testbench Strategy
 
@@ -62,15 +61,20 @@ Captured waveform for a successful OR operation showing `result`, control signal
 2. Open the project or create a new one and add the files from the `src/` and `test_bench/` folder.
 3. Set `tb_Register.vhd` as the top simulation unit
 4. Click **Simulation → Simulation Settings**. Then, under **Simulation → xsim.simulate.runtime**, increase the runtime to accommodate all randomized test cases.
-5. Open the **Waveform Viewer** to inspect signal transitions and flags
+5. Open the **Waveform Viewer** to inspect signal transitions
 6. View the test results in the **Tcl Console**
 
 ## Author
 **Noridel Herron**  
 Senior Computer Engineering Student @ MIZZOU
-**noridel.herron@gmail.com**
+noridel.herron@gmail.com
 
-MIT License
+## Disclaimer
+
+This project is developed solely for educational and personal learning purposes.  
+It may contain unfinished or experimental features and is not intended for commercial or production use.
+
+## MIT License
 
 Copyright (c) 2025 Noridel Herron
 

@@ -114,7 +114,7 @@ begin
             write_enable <= '0'; -- disable writing now
             wait until rising_edge(clk);
 
-            wait for 1 ns; -- small settle
+            wait for 30 ns; -- small settle
 
             -- Check read data
             if (read_data1 /= regfile(rand_addr1)) or (read_data2 /= regfile(rand_addr2)) then
