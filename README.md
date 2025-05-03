@@ -5,20 +5,20 @@ Designed and implemented a 32-register file (32-bit width each) in VHDL for a cu
 
 ## Project Structure
 32x32-bit-Register-File-in-VHDL/
-├── images/
-│   ├── REG_TCL_1.png
-│   ├── REG_TCL_2.png
-│   ├── reg_wave_1.png
-│   ├── reg_wave_2.png
-│   ├── reg_wave_3.png
-│   ├── reg_wave_4.png
-│   ├── reg_wave_5.png
-├── src/
-│   ├── Register_File.vhd
-├── test_bench/
-│   ├── tb_Register/
-├── .gitignore/
-├── README.md/
+- images/
+    - REG_TCL_1.png
+    - REG_TCL_2.png
+    - reg_wave_1.png
+    - reg_wave_2.png
+    - reg_wave_3.png
+    - reg_wave_4.png
+    - reg_wave_5.png
+- src/
+    - Register_File.vhd
+- test_bench/
+    - tb_Register/
+- .gitignore/
+- README.md/
 
 ## Testbench Strategy
 The register file was tested using a randomized VHDL testbench that simulates realistic and edge-case scenarios. The testbench performs the following:
